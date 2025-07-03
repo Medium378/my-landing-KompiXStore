@@ -9,42 +9,51 @@ body {
     padding-left: 40px;
     align-items: center;
     flex: 1;
+    transition: 0.3s ease;
 }
 
 .one .bay {
-    font-size: 12px;
-    margin-left: 20px;
-    padding: 10px 40px;
+    display: flex;
+    font-size: 15px;
+    margin-left: 40px;
+    margin-right: 20px;
+    padding: 10px 30px 10px 30px;
     border-radius: 20px;
     background-color: black;
     color: white;
     border: none;
+    text-align: center;
+    text-decoration: none;
 }
 
+
 .one p {
-    margin-left: 50px;
+    margin-left: 45px;
     transition: all 1s ease;
 }
 
-.vk {
+.vk img {
     background-color: black;
-    margin-left: 80px;
+    margin-left: 60px;
     margin-right: 10px;
-    font-size: 20px;
-    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
 }
 
-.tg {
+.tg img {
     background-color: black;
     margin-right: 10px;
-    font-size: 20px;
+    width: 30px;
+    height: 30px;
     border-radius: 200px;
 }
 
-.youtube {
+.yt img {
     background-color: black;
     margin-right: 10px;
-    font-size: 20px;
+    width: 30px;
+    height: 30px;
     border-radius: 200px;
 }
 
@@ -54,6 +63,7 @@ body {
 
 .cat {
     width: 600px;
+    border-radius: 10px;
 }
 
 .name {
@@ -138,6 +148,7 @@ body {
 
 video {
     width: 1250px;
+    border-radius: 10px;
 }
 
 .cards {
@@ -156,6 +167,7 @@ video {
 .mod1 {
     width: 240px;
     margin-top: 0;
+    border-radius: 10px;
 }
 
 .model-bay {
@@ -189,7 +201,9 @@ video {
 
 .mod2 {
     width: 240px;
-    margin-top: 127px;
+    height: 240px;
+    margin-top: 0px;
+    border-radius: 10px;
 }
 
 .model-bay {
@@ -218,7 +232,9 @@ video {
 
 .mod3 {
     width: 240px;
-    margin-top: 110px;
+    height: 240px;
+    margin-top: 0px;
+    border-radius: 10px;
 }
 
 .model-bay {
@@ -364,7 +380,8 @@ video {
 }
 
 .foto-navigation {
-    width: 1100px;
+    width: 800px;
+    height: 600px;
 }
 
 .corpus-box {
@@ -634,7 +651,7 @@ video {
 }
 
 .box1 {
-    margin-top: 185px;
+    padding-top: 75px;
     text-align: left;
     align-items: center;
 }
@@ -643,7 +660,13 @@ video {
 .model2,
 .model3 {
     margin-right: 90px;
-    margin-top: 30px;
+    margin-top: 0px;
+}
+
+.model1 img,
+.model2 img,
+.model3 img {
+    height: 100px;
 }
 
 footer {
@@ -825,7 +848,6 @@ footer {
 
 .vk-foot {
     color: white;
-    background-color: rgb(44, 47, 49);
     padding: 5px;
     border-radius: 10px;
     font-size: 20px;
@@ -835,7 +857,6 @@ footer {
 
 .tg-foot {
     color: white;
-    background-color: rgb(44, 47, 49);
     padding: 5px;
     border-radius: 20px;
     font-size: 20px;
@@ -843,8 +864,7 @@ footer {
 }
 
 .yt-foot {
-    color: white;
-    background-color: rgb(44, 47, 49);
+    color: black;
     padding: 5px;
     border-radius: 20px;
     font-size: 20px;
@@ -895,11 +915,15 @@ footer {
 }
 
 .end a {
-    margin-right: 40px;
+    margin-right: 0px;
+    margin-left: 50px;
 }
 
-.soc-set a {
-    margin-bottom: 30px;
+.soc-set {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-top: 20px;
 }
 
 a {
@@ -930,7 +954,36 @@ button:hover {
     background-color: #8c8282;
 }
 
-.soc-set a:hover {
+.soc-set a img:hover {
     cursor: pointer;
     background-color: #8c8282;
+    transform: scale(1.1);
+}
+
+.img-vk-foot {
+    width: 60px;
+    border-radius: 10px;
+}
+
+.soc-set a img {
+    width: 35px;
+    height: 35px;
+    border-radius: 12px;
+    transition: 0.3s ease;
+    padding-bottom: 0;
+}
+
+.one a img:hover {
+    cursor: pointer;
+    background-color: #8c8282;
+    transform: scale(1.1);
+}
+
+.bay:hover {
+    background-color: #4c4a4a;
+    transform: scale(1.1);
+}
+
+img {
+    border-radius: 10px;
 }
