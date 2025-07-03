@@ -987,3 +987,13 @@ button:hover {
 img {
     border-radius: 10px;
 }
+
+.posk {
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.posk-box{
+    border-top: 1px solid white;
+}
